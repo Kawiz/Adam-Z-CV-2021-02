@@ -1,0 +1,31 @@
+body {
+    /*Som vi kan se så har jag en svart bakgrunds bild men eftersom 
+    jag infogat en bild så ser man inte den svarta bakgrunden. senare har jag fixat en 
+    skriv stil, storlek och position samt färg. Bakrundens kod befinner sig längst ner 
+    inom body paragrafen.*/ 
+    background-color: black;
+    margin: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    background-image: url(./Triangel.jpg);
+    
+}
+
+h2 {
+    /*Detta är då alla som ingår i h2 kattegorin vilket är storleken på text.
+    här satte jag deras bakgrund som transparent eftersom man vill ju inte ha en färg som 
+    förstör all bakgrund. resten är det samma som ovan body paragrafet. */
+    background-color: transparent;
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    
+
+}
+
+p{
+    /*p skulle bara centreras.*/
+    text-align: center;
+}
